@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: #A9E4D7;
+    font-family: 'Calibri';
+}
+
+header{
+background: url('../img/fondo.png');
+height: 420px;
+background-size: cover auto;
+background-repeat: no-repeat;
+}
+
+ h1{
+    font-size: 44px;
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+h1 a{
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px 0;
+}
+
+
+
+
+
+.cabecera{
+    text-align: center;
+}
+
+.cabecera p{
+    font-size: 60px;
+    font-weight: bold;
+    margin: 1em 0;
+}
+
+.cabecera p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+p{
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+    font-family: 'calibri';
+    font-size: 25px;
+}
+
+img.img-thu{
+    width: 20%;
+    height: 20%;
+    align-items: center;
+}
+
+

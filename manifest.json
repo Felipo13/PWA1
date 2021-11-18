@@ -1,0 +1,50 @@
+{
+    "name": "MarvelDemo",
+    "short_name": "MarvelDemo",
+    "description": "1Esta pagina esta hecha con fines informativos y no busca ningun tipo de reconocimiento, solo fue hecha para poder pasar la materia de PWA y no irme a extras. Queda prohibido su usos para fines distintos a los establecidos en el programa",
+    "background_color": "#4c445c",
+    "theme_color": "#A9E4D7",
+    "orientation": "portrait",
+    "display": "standalone",
+    "start_url": "./?utm_source=web_app_manifest",
+    "scope": "./",
+    "lang": "es-MX",
+    "icons":[
+            {
+                "src": "img/apple-icon-57x57.png",
+                "sizes": "57x57",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-60x60.png",
+                "sizes": "60x60",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-72x72.png",
+                "sizes": "72x72",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-76x76.png",
+                "sizes": "76x76",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-144x144.png",
+                "sizes": "144x144",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-120x120.png",
+                "sizes": "120x120",
+                "type": "image/png"
+               },
+               {
+                "src": "img/apple-icon-152x152.png",
+                "sizes": "152x152",
+                "type": "image/png"
+               }
+    
+    ]
+}
