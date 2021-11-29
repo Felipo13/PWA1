@@ -25,7 +25,7 @@ self.addEventListener('install',e=>{
 
 
 //metodo offline
-self.addEventListener('adctivate',e=>{
+self.addEventListener('activate',e=>{
 
     const cacheCln = [CACHE_NAME]
 
@@ -33,11 +33,13 @@ self.addEventListener('adctivate',e=>{
         caches.keys()
         .then(cachesName =>{
             cacheNames.map(cacheName=>{
+                //elimina elementos caducos
                 if (cacheCln.indexOf(cacheName)===-1) {
                     return caches.delete(cacheName)
                 }
             })
         })
+        //indica que termino de actualizar el cache
         .then(()=>self.clients.claim())
     )
 })
